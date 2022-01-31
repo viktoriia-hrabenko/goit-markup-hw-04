@@ -162,8 +162,9 @@ img {
   height: 600px;
   padding-top: 200px;
   padding-bottom: 280px;
-  background-image: url(/images/background.jpg);
+  background-image: url(/images/background-main.jpg), url(/images/overlay.png);
   background-size: cover;
+  background-image: linear-gradient();
 }
 
 .m-h-c {
