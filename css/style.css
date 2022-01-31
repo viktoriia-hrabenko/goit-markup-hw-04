@@ -162,8 +162,8 @@ img {
   height: 600px;
   padding-top: 200px;
   padding-bottom: 280px;
-  background-color: #2f303a;
-  background-size: 100%;
+  background-image: url(/images/background.jpg);
+  background-size: cover;
 }
 
 .m-h-c {
