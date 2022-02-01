@@ -182,7 +182,7 @@ img {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("/images/background-main.jpg");
+    url("images/background-main.jpg");
   background-size: cover;
 }
 
