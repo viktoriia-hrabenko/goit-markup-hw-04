@@ -45,7 +45,8 @@ img {
 .buttons-list,
 .projects-list,
 .address-list,
-.social-links-list {
+.social-links-list,
+.clients-list {
   list-style: none;
 }
 
@@ -63,7 +64,9 @@ img {
 }
 
 .btn,
-.portfolio-btn {
+.portfolio-btn,
+.social-links-list-item,
+.clients-list-item {
   cursor: pointer;
 }
 
@@ -152,7 +155,18 @@ img {
 
 .contact-link-mail {
   margin-right: 50px;
-  margin-left: 371px;
+  margin-left: 351px;
+}
+
+.mail-icon,
+.phone-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.mail-icon:hover,
+.phone-icon:hover {
+  fill: var(--main-color);
 }
 
 /* ############## Koniec sekcji HEADER ############## */
@@ -403,6 +417,12 @@ img {
 .clients {
   display: flex;
   flex-direction: column;
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+
+.secondary-header-clients {
+  margin-bottom: 50px;
 }
 
 .clients-list {
@@ -414,12 +434,42 @@ img {
   justify-content: center;
   padding-left: px;
 }
+
 .clients-list-item {
-  flex-basis: calc(100% / 6 - 10px);
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.clients-list-item {
+  flex-basis: calc(100% / 6 - 30px);
 }
 
 .clients-list-item:not(:last-child) {
-  margin-right: 10px;
+  margin-right: 30px;
+}
+
+.clients-list-item:hover {
+  fill: var(--main-color);
+}
+
+.logo1,
+.logo2 {
+  margin-top: 17.71px;
+  margin-right: 32px;
+  margin-bottom: 14.25;
+  margin-left: 32px;
+}
+
+.logo3,
+.logo4,
+.logo5,
+.logo6 {
+  margin-top: 16px;
+  margin-right: 32px;
+  margin-bottom: 16px;
+  margin-left: 32px;
 }
 /*############## Koniec Nasi klijenci ###############*/
 
@@ -430,6 +480,9 @@ img {
   height: 252px;
 }
 
+.foot-cont {
+  display: flex;
+}
 .secondary-main {
   font-family: var(--secondary-font);
   font-style: normal;
@@ -440,6 +493,7 @@ img {
   width: 145px;
   height: 31px;
   margin-left: 15px;
+  
 }
 
 .address-container {
@@ -472,6 +526,24 @@ img {
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+
+}
+
+.join {
+  width: 113px;
+  height: 16px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-left: 39px;
+}
+
+.join-us {
+  margin-left: 70px;
 }
 /*##################### END FOOTER #################*/
 
