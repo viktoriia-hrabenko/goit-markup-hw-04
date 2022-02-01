@@ -44,7 +44,8 @@ img {
 .about-list,
 .buttons-list,
 .projects-list,
-.address-list {
+.address-list,
+.social-links-list {
   list-style: none;
 }
 
@@ -162,9 +163,11 @@ img {
   height: 600px;
   padding-top: 200px;
   padding-bottom: 280px;
-  background-image: url(/images/background-main.jpg), url(/images/overlay.png);
+  background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)),
+    url("/images/background-main.jpg");
   background-size: cover;
-  background-image: linear-gradient();
 }
 
 .m-h-c {
@@ -210,6 +213,7 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 94px;
+  margin-bottom:94px ;
   height: 101px;
 }
 
@@ -222,6 +226,42 @@ img {
 .features-list-item:not(:last-child) {
   margin-right: 30px;
 }
+
+.features-icon-par {
+  width: 270px;
+  height: 120px;
+  background: #F5F4FA;
+  border-radius: 4px;
+}
+
+.antenna {
+  margin-top: 25px;
+  margin-right: 102.34px;
+  margin-bottom: 25px;
+  margin-left: 102.34px;
+}
+
+.clock {
+  margin-top: 25px;
+  margin-right: 101.5px;
+  margin-bottom: 25px;
+  margin-left: 101.5px;
+}
+
+.diagram {
+  margin-top: 33.2px;
+  margin-right: 100px;
+  margin-bottom: 33.2px;
+  margin-left: 100px;
+}
+
+.astronaut {
+  margin-top: 25px;
+  margin-right: 100px;
+  margin-bottom: 25px;
+  margin-left: 100px;
+}
+
 .features-name {
   width: 270px;
   height: 16px;
@@ -251,7 +291,8 @@ img {
   /*width: 970px;*/
   height: 386px;
   margin-left: 15px;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
+  margin-bottom: 188px;
 }
 .secondary-header {
   font-style: normal;
@@ -264,6 +305,7 @@ img {
 
 .secondary-header-container {
   margin-top: 94px;
+  padding-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -284,15 +326,16 @@ img {
 /* ############## Nasz zespól ############## */
 
 .secondary-header-team {
-  margin-top: 94px;
   margin-bottom: 50px;
 }
+
 .team {
   display: flex;
   flex-direction: column;
   background-color: #f5f4fa;
   background-size: 100%;
   height: 648px;
+  margin-top: 94px;
 }
 
 .team-list {
@@ -305,7 +348,7 @@ img {
 
 .team-list-item {
   width: 270px;
-  height: 368px;
+  height: 428px;
   flex-basis: calc(100% / 4 - 30px);
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -337,7 +380,49 @@ img {
   margin-top: 10px;
   text-align: center;
 }
+
+.social-links-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 206px;
+  height: 56px; 
+  align-items: center;
+  justify-content: center;
+  padding-left: 32px;
+}
+.social-links-list-item {
+  flex-basis: calc(100% / 4 - 10px);
+}
+
+.social-links-list-item:not(:last-child) {
+  margin-right: 10px;
+}
 /* ############## Koniec sekcji Nasz zespól ############## */
+
+/*############## Nasi klijenci ###############*/
+.clients {
+  display: flex;
+  flex-direction: column;
+}
+
+.clients-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: px;
+  height: px; 
+  align-items: center;
+  justify-content: center;
+  padding-left: px;
+}
+.clients-list-item {
+  flex-basis: calc(100% / 6 - 10px);
+}
+
+.clients-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+/*############## Koniec Nasi klijenci ###############*/
+
 
 /*##################### FOOTER #################*/
 .footer {
