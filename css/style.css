@@ -464,6 +464,7 @@ img {
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
+  fill: #afb1b8;
 }
 
 .clients-list-item {
@@ -472,6 +473,10 @@ img {
 
 .clients-list-item:not(:last-child) {
   margin-right: 30px;
+}
+
+.clients-list-link {
+  fill: #afb1b8;
 }
 
 .logo1,
@@ -492,29 +497,12 @@ img {
   margin-left: 32px;
 }
 
-.logo1,
-.logo2,
-.logo3,
-.logo4,
-.logo5,
-.logo6 {
-  fill: #afb1b8;
-}
-
 .clients-list-item:hover,
 .clients-list-item:focus,
-.logo1:hover,
-.logo1:focus,
-.logo2:hover,
-.logo2:focus,
-.logo3:hover,
-.logo3:focus,
-.logo4:hover,
-.logo4:focus,
-.logo5:hover,
-.logo5:focus,
-.logo6:hover,
-.logo6:focus {
+.clients-list-link:hover,
+.clients-list-link:focus,
+.logo-icon:hover,
+.logo-icon:focus {
   fill: var(--main-color);
   border-color: var(--main-color);
 }
