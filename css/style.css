@@ -182,7 +182,7 @@ img {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("/images/background-main.jpg");
+    url("../images/background-main.jpg");
   background-size: cover;
 }
 
@@ -420,17 +420,14 @@ img {
 .social-list-link:hover,
 .social-list-link:focus,
 .social-list-link-footer:hover,
-.social-list-link-footer:focus,
-.inst1:hover,
-.inst1:focus,
-.twit1:hover,
-.twit1:focus,
-.fb1:hover,
-.fb1:focus,
-.ln1:hover,
-.ln1:focus {
-  fill: #ffffff;
+.social-list-link-footer:focus {
+ 
   background-color: var(--main-color);
+}
+
+.social-icon:hover,
+.social-icon:focus {
+  fill: #ffffff;
 }
 
 .inst1,
