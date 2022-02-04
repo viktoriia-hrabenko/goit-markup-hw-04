@@ -415,26 +415,15 @@ img {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
+  fill: #afb1b8;
 }
 
 .social-list-link:hover,
 .social-list-link:focus,
 .social-list-link-footer:hover,
 .social-list-link-footer:focus {
- 
-  background-color: var(--main-color);
-}
-
-.social-icon:hover,
-.social-icon:focus {
   fill: #ffffff;
-}
-
-.inst1,
-.twit1,
-.fb1,
-.ln1 {
-  fill: #afb1b8;
+  background-color: var(--main-color);
 }
 
 .social-links-list-item {
