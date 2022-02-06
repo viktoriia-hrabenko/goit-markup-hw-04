@@ -13,8 +13,8 @@
     <title>WebStudio</title>
 </head>
 <body>
-    <div class="container">
-        <header class="header">
+    <header class="header">
+        <div class="container">
             <nav class="navigation">
                 <a class="navigation-main" href="index.html"><span class="logo-1">Web</span><span
                         class="logo-2">Studio</span></a>
@@ -39,19 +39,17 @@
                 <svg class="phone-icon" width="10" height="16">
                     <use href="./images/icons.svg#icon-phone"></use>
                 </svg>+48 111 111 111</a>
-
-        </header>
-    </div>
-
+        </div>
+    </header>
+    
     <hr class="line" size="1" color="#ECECEC" width="1600">
     
     <main class="page">
         
         <!--Buttons-->
         
-    <div class="portfolio">
+    <section class="buttons">
         <div class="container">
-        <section class="buttons">
             <div class="buttons">
                 <ul class="buttons-list">
                 <li class="buttons-list-item"><button class="portfolio-btn all-btn" type="button">Wszystkie</button></li>
@@ -61,13 +59,12 @@
                 <li class="buttons-list-item"><button class="portfolio-btn mark-btn" type="button">Marketing</button></li>
                 </ul>
             </div>
-        </section>
-        </div>
+        </div> 
+    </section>
 
         <!--Projekty-->
-        
+    <section class="projects">
         <div class="container">
-        <section class="projects">
             <ul class="projects-list">
                 <li class="projects-list-item">
                     <img class="projects-list-item-img" src="images/projekt_1.jpg" alt="Wzór strony na laptopie" width="370" height="294">
@@ -115,10 +112,9 @@
                     <p class="project-type">Aplikacja</p>
                 </li>
             </ul>
-        </section>
         </div>
-    
-    </div>    
+    </section>
+           
     </main>
 
     <footer class="footer">
