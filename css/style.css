@@ -99,7 +99,7 @@ img {
 
 .header {
   background: #ffffff;
-  /*border: 1px solid #ececec;*/
+  border-bottom: 1px solid #ececec;
   height: 80px;
 }
 
@@ -303,6 +303,10 @@ img {
 /* ############## Koniec sekcji HERO ############## */
 
 /* ############## Czym się zajmujemy ############## */
+.work {
+  margin-bottom: 94px;
+}
+
 .about {
   /*width: 970px;*/
   height: 386px;
@@ -598,14 +602,6 @@ img {
 /*##################### END FOOTER #################*/
 
 /*##################### PORTFOLIO #################*/
-.hr {
-  width: 1200px;
-  height: 0px;
-  left: 0px;
-  top: 80px;
-  border: 1px solid #ececec;
-}
-
 .page {
   /* background: #E5E5E5;*/
 }
