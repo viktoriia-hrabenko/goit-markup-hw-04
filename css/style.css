@@ -699,6 +699,10 @@ img {
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
+.card {
+  border: 1px solid #eeeeee;
+}
+
 .project-name {
   font-style: normal;
   font-weight: bold;
